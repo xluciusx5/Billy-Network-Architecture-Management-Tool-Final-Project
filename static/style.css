@@ -1,0 +1,165 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('/static/icons/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+.btn-primary {
+    background: #FF3B30;
+}
+
+.btn-primary:hover {
+    background: #ff6150;
+}
+
+.btn-secondary {
+    background: #007AFF;
+}
+
+.btn-secondary:hover {
+    background: #339AFF;
+}
+
+.table-container {
+    max-width: 90%;
+    overflow-x: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+}
+
+.report-table th, .report-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.report-table th {
+    background-color: #333;
+    color: white;
+}
+
+.report-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.report-container {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.report-table {
+    width: 80%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+    margin: auto;
+}
+
+.report-table th, .report-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.report-table th {
+    background: #444;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    background: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.firmware-form {
+    margin-top: 30px;
+}
+
+.firmware-form input[type="text"],
+.firmware-form input[type="password"] {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.firmware-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #FF3B30;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.firmware-form input[type="submit"]:hover {
+    background-color: #ff6150;
+}
+
+.firmware-result {
+    margin-top: 30px;
+    background: #222;
+    color: #00FF7F;
+    padding: 15px;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    word-break: break-word;
+}
