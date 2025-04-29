@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='icons/siteicon.png') }}">
+
+    <title>Select an Option</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎉 File Processed Successfully!</h1>
+        <p>Choose what you’d like to do next:</p>
+
+        <div class="options">
+            <a href="{{ url_for('view_diagram', filename=diagram) }}" class="btn btn-primary">📡 View Network Diagram</a>
+            <a href="{{ url_for('equipment_report') }}" class="btn btn-secondary">📊 View Equipment Report</a>
+            <a href="{{ url_for('vulnerability_prediction') }}" class="btn btn-primary">🛡️ Firmware Vulnerability Report</a>
+
+        </div>
+
+        <br>
+        <a href="/" class="link">⬅ Upload Another File</a>
+    </div>
+
+</body>
+</html>

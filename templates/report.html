@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Equipment & End-of-Life Report</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='icons/siteicon.png') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="report-container">
+        <h2> Equipment & End-of-Life Report</h2>
+        <div class="table-wrapper">
+            {{ table|safe }}
+        </div>
+        <br>
+        <a href="/" class="button"> Back to Home</a>
+    </div>
+</body>
+</html>
